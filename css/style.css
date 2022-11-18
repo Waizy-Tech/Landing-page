@@ -1,0 +1,376 @@
+/* Navbar styling */
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: none;
+    font-weight: 900;
+    color: #1d1c1d;
+}
+
+nav ul li a {
+    color: #1d1c1d;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: #1d1c1d;
+}
+
+nav ul li button {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto 10px;
+    padding: auto;
+    width: 100px;
+}
+
+/* Styling for the first section */
+#first {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #dddddd;
+}
+
+#first h1 {
+    text-transform: none;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#1d1c1d;
+    text-align: left;
+    /* margin-top: 18px; */
+    /* margin-bottom: 10px; */
+    margin: 20px 0px;
+}
+
+#first h1 span {
+    color: #0d6efd;
+}
+
+#first button {
+    margin-top: 18px;
+    max-width: 50%;
+    height: 60px;
+    font-size: 18px;
+}
+
+#first .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#first .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#first img {
+    min-height: 30vh;
+    max-width: 130% !important;
+    width: 750px;
+    margin-top: 50px;
+}
+
+/* Styling for second section */
+#second {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#second h3 {
+    text-transform: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0d6efd;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#second p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    /* text-align: justify; */
+}
+
+#second .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#second .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#second img {
+    min-height: 30vh;
+    max-width: 130% !important;
+    width: 500px;
+    margin-top: 50px;
+}
+
+/* Styling for the third section */
+#third {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #dddddd;
+}
+
+#third h3 {
+    text-transform: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#third p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* text-align: justify; */
+}
+
+#third .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#third .span-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#third span {
+    min-height: 30vh;
+    max-width: 130% !important;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#features {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    padding: 25px;
+}
+
+/* Styling for contact section */
+
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+#contact h2 {
+    text-transform: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+#contact h3 {
+    text-transform: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+#contact p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    /* text-align: justify; */
+}
+
+#contact form {
+    border-radius: 20px;
+    margin: 20px;
+    padding: 50px;
+}
+
+#contact form label {
+    padding-bottom: 10px;
+}
+
+#contact form input {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+#contact form textarea {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+#contact .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#contact .span-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.div-class {
+    margin: 20px;
+    text-align: left;
+    /* padding-bottom: 5px; */
+}
+
+/* Styling for 4th section, Testimonial section */
+
+#testimonial {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0d6efd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#testimonial h3 {
+    text-transform: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+#testimonial p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    /* text-align: justify; */
+}
+
+#testimonial .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#testimonial .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#testimonial img {
+    min-height: 30vh;
+    max-width: 130% !important;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#pricing {
+    border-radius: 20px;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+#pricing span {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+#pricing button {
+    /* margin-top: 18px; */
+    max-width: 40%;
+    height: 40px;
+    font-size: 16px;
+    margin: 18px;
+}
+
+#pricing h4 {
+    color: #0d6efd;
+    margin: 18px;
+}
+
+#pricing p {
+    color: #1d1c1d;
+    font-size: 14px;
+    margin: 12px 18px;
+}
+
+#pricing .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#pricing img {
+    min-height: 30vh;
+    max-width: 130% !important;
+    width: 75px;
+    margin-top: 50px;
+}
+
+#mobile .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#mobile .img-col {
+    justify-content: right;
+    margin-top: -1000px;
+}
+
+#mobile img {
+    min-height: 30vh;
+    max-width: 30% !important;
+    margin-top: -390px;
+    align-self: flex-end;
+}
+
+/* Footer styling */
+#footer {
+    background-color: #0d6efd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer p {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
