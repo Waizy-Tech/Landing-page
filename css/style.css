@@ -246,6 +246,75 @@ nav ul li button {
     margin-top: 100px;
 }
 
+#contactUs {
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    background-color: #fff;
+}
+
+#contactUs h2 {
+    text-transform: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+#contactUs h3 {
+    text-transform: none;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+#contactUs p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    /* text-align: justify; */
+}
+
+#contactUs form {
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#contactUs form label {
+    padding-bottom: 10px;
+}
+
+#contactUs form input {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+#contactUs form textarea {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+#contactUs .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#contactUs .span-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+
 .div-class {
     margin: 20px;
     text-align: left;
@@ -347,7 +416,7 @@ nav ul li button {
 
 #mobile .img-col {
     justify-content: right;
-    margin-top: -1000px;
+    /* margin-top: -1000px; */
 }
 
 #mobile img {
@@ -355,6 +424,20 @@ nav ul li button {
     max-width: 30% !important;
     margin-top: -390px;
     align-self: flex-end;
+    /* animation-name: mobile_img;
+    animation-duration: 5s;
+    animation-delay: 1s; */
+    left: 0;
+    transition: opacity 2s linear;
+}
+
+@keyframes mobile_img {
+    0% {left: 0px; right: 100px;}
+}
+
+#test {
+    position: relative;
+    margin-top: 0px;
 }
 
 /* Footer styling */
