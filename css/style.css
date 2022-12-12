@@ -1,9 +1,11 @@
-/* Navbar styling */
+@import url('https://fonts.googleapis.com/');
+
 body {
     display: block;
     overflow-x: hidden;
 }
 
+/* Navbar styling */
 nav {
     background-color: #fff;
 }
@@ -246,6 +248,34 @@ nav ul li button {
     margin-top: 100px;
 }
 
+#contact .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#contact img {
+    min-height: 30vh;
+    max-width: 75% !important;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#row-2 {
+    /* background-color: #dddddd; */
+    margin-top: 20px;
+}
+
+#row-2 .img {
+    max-width: 30% !important;
+    width: 10px;
+}
+
+#row-2 h4 span {
+    color: #0d6efd;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 #contactUs {
     padding-top: 50px;
     /* padding-bottom: 50px; */
@@ -312,6 +342,13 @@ nav ul li button {
 #contactUs .span-col {
     justify-content: flex-end;
     margin-top: 100px;
+}
+
+#contactUs #btn-send {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -437,7 +474,7 @@ nav ul li button {
 
 #test {
     position: relative;
-    margin-top: 0px;
+    margin-top: -400px;
 }
 
 /* Footer styling */
@@ -456,4 +493,33 @@ nav ul li button {
     justify-content: center;
     flex-direction: column;
     display: flex;
+}
+
+
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+    /* for mobile phones */
+    body {
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    .navbar-nav {
+        overflow-x: hidden;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-brand img {
+        max-height: 10px;
+        max-width: 40% !important;
+    }
+
+    #contactUs
 }
