@@ -583,6 +583,15 @@ nav ul li button {
         padding-bottom: 50px;
     }
 
+    #second #res p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #second #res h3{
+        text-align: center;
+    }
+
     #second h3 {
         text-transform: none;
         font-weight: 900;
@@ -615,6 +624,7 @@ nav ul li button {
         max-width: 130% !important;
         width: 500px;
         margin-top: 50px;
+        display: none;
     }
 
     /* Styling for the third section */
